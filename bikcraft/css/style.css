@@ -4,6 +4,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     --color-primary: #fec64e;
     --color-secondary: white;
+    --color-blackspace: #121212;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--color-blackspace);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
 }
 
 p {
@@ -23,9 +36,29 @@ p {
     letter-spacing: .1em;
 }
 
-.btn:hover {
+.btn::hover {
     color: var(--color-secondary);
     border-color: var(--color-secondary);
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: var(--color-blackspace);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitle::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--color-blackspace);
+    margin: 10px auto;
 }
 
 /* Header styles */
@@ -49,7 +82,7 @@ p {
 }
 
 .header_menu ul li a {
-    color: black;
+    color: var(--color-blackspace);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -62,7 +95,7 @@ p {
     color: var(--color-secondary);
 }
 
-/* Introduction */
+/* Introduction Section */
 
 .introduction {
     width: 100%;
@@ -92,7 +125,7 @@ p {
     font-style: italic;
 }
 
-.external-quote p:before, .external-quote p:after {
+.external-quote p::before, .external-quote p::after {
     content: "";
     display: block;
     width: 60px;
@@ -107,3 +140,40 @@ p {
     font-size: 14px;
 }
 
+/* Products Section */
+
+.products {
+    padding: 60px 0;
+}
+
+.products_list li {
+    background: var(--color-primary);
+    text-align: center;
+}
+
+.products_list li h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.products_list li p{
+    padding: 10px 20px 10px 20px;
+}
+
+.products_list li h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--color-blackspace);
+    margin: 2px auto;
+}
+
+.products_icon{
+    background: var(--color-blackspace);
+    padding: 20px;
+}
