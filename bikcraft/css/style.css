@@ -36,9 +36,14 @@ p {
     letter-spacing: .1em;
 }
 
-.btn::hover {
+.btn:hover {
     color: var(--color-secondary);
     border-color: var(--color-secondary);
+}
+
+.btn-no-background:hover  { /* if have id no-background, change to black. need to stay after hover default*/
+    color: var(--color-blackspace);
+    border-color: var(--color-blackspace);
 }
 
 .subtitle {
@@ -69,6 +74,7 @@ p {
     width: 100%;
     background: var(--color-primary);
     padding: 15px 0;
+    z-index: 10; /* avoid content to overcome the fixed nav-menuy style */
 }
 
 .header_menu {
@@ -176,4 +182,14 @@ p {
 .products_icon{
     background: var(--color-blackspace);
     padding: 20px;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;;
+}
+
+.call p {
+    margin-bottom: 40px;
 }
