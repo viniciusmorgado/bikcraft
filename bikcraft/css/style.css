@@ -24,6 +24,10 @@ p {
     font-size: 14px;
     line-height: 20px;
 }
+/*
+img {
+    display: block;
+}*/
 
 .btn {
     border: 3px solid var(--color-primary);
@@ -227,4 +231,60 @@ p {
 
 .portfolio-list li:last-child {
     margin-top: 15px;
+}
+
+/* Quality Section */
+
+.quality {
+    padding-top: 40px;
+}
+
+.quality img {
+    margin: 0 auto;
+    display: block;
+}
+
+.quality:after {
+    content: " ";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url(../assets/img/linhas.svg);
+    position: absolute;
+    top: 191px;
+    right: 162px;
+    z-index: -1;
+} 
+
+.quality-list {
+    padding-top: 20px;
+
+}
+
+.quality-list li {
+    text-align: center;
+    padding: 0 40px;
+
+}
+
+.quality-list li h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.quality-list li p{
+    padding: 10px 20px 10px 20px;
+}
+
+.quality-list li h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--color-blackspace);
+    margin: 2px auto;
 }
