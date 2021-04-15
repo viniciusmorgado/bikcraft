@@ -66,6 +66,17 @@ p {
     margin: 10px auto;
 }
 
+.subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: var(--color-blackspace);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 /* Header styles */
 
 .header {
@@ -192,4 +203,28 @@ p {
 
 .call p {
     margin-bottom: 40px;
+}
+
+/* Portfolio Section */
+
+.portfolio {
+    width: 100%;
+    background: var(--color-blackspace);
+    padding: 40px 0;
+}
+
+.portfolio p {
+    color: var(--color-secondary);
+}
+
+.portfolio .subtitle { /* Reference to another created class */
+    color: var(--color-primary);
+}
+
+.portfolio .subtitle:after { 
+    background: var(--color-primary);
+}
+
+.portfolio-list li:last-child {
+    margin-top: 15px;
 }
