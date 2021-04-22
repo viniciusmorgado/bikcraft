@@ -7,7 +7,6 @@ C:\Users\conta\OneDrive\Documentos\Projects\Web\bikcraft\bikcraft\bin\Debug\net5
 C:\Users\conta\OneDrive\Documentos\Projects\Web\bikcraft\bikcraft\bin\Debug\net5.0\bikcraft.dll
 C:\Users\conta\OneDrive\Documentos\Projects\Web\bikcraft\bikcraft\bin\Debug\net5.0\ref\bikcraft.dll
 C:\Users\conta\OneDrive\Documentos\Projects\Web\bikcraft\bikcraft\bin\Debug\net5.0\bikcraft.pdb
-C:\Users\conta\OneDrive\Documentos\Projects\Web\bikcraft\bikcraft\obj\Debug\net5.0\bikcraft.csprojAssemblyReference.cache
 C:\Users\conta\OneDrive\Documentos\Projects\Web\bikcraft\bikcraft\obj\Debug\net5.0\bikcraft.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\conta\OneDrive\Documentos\Projects\Web\bikcraft\bikcraft\obj\Debug\net5.0\bikcraft.AssemblyInfoInputs.cache
 C:\Users\conta\OneDrive\Documentos\Projects\Web\bikcraft\bikcraft\obj\Debug\net5.0\bikcraft.AssemblyInfo.cs

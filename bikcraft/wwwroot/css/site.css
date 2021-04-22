@@ -28,14 +28,6 @@ p {
     font-size: 14px;
     line-height: 20px;
 }
-/*
-img {
-    display: block;
-}*/
-
-/*.logo-change:hover {
-    ???
-}*/
 
 .btn {
     border: 3px solid var(--color-primary);
@@ -166,7 +158,6 @@ img {
 }
 
 /* Products Section */
-
 .products {
     padding: 60px 0;
 }
