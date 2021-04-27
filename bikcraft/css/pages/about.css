@@ -1,9 +1,10 @@
 .about-internal {
-    background: url(../../assets/img/bg-about.jpg);
+    background: url(../../assets/img/bg-about.jpg) no-repeat;
+    background-size: cover;
 }
 
 .mission-about {
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .mission-about p {
