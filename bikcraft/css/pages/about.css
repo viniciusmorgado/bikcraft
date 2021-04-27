@@ -1,0 +1,27 @@
+.about-internal {
+    background: url(../../assets/img/bg-about.jpg);
+}
+
+.mission-about {
+    padding-top: 60px;
+}
+
+.mission-about p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+
+.mission-about ul li {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+
+.pic-team {
+    padding-top: 20px;
+}
+
+

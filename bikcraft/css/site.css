@@ -68,15 +68,25 @@ p {
     margin: 10px auto;
 }
 
-.subtitle {
+.subtitle-internal {
     font-size: 24px;
     line-height: 30px;
     font-weight: bold;
     color: var(--color-blackspace);
     text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
+
+.subtitle-internal:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--color-blackspace);
+    margin: 10px;
+}
+
+
 
 /* Header styles */
 
@@ -112,6 +122,10 @@ p {
     color: var(--color-secondary);
 }
 
+.header_menu ul li a.active-menu {
+    color: var(--color-secondary);
+}
+
 /* Introduction Section */
 
 .introduction {
@@ -129,6 +143,32 @@ p {
     color: var(--color-secondary);
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/* Introduction Internal */
+
+.introduction-internal {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+    color: var(--color-secondary);
+}
+
+.introduction-internal h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introduction-internal h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--color-secondary);
+    margin: 14px auto 10px auto;
 }
 
 .external-quote {
@@ -158,6 +198,7 @@ p {
 }
 
 /* Products Section */
+
 .products {
     padding: 60px 0;
 }
@@ -224,6 +265,7 @@ p {
     background: var(--color-primary);
 }
 
+
 .portfolio-list li:last-child {
     margin-top: 15px;
 }
@@ -253,7 +295,7 @@ p {
 
 .quality-list {
     padding-top: 20px;
-
+    overflow: auto; /* Clear Fix */
 }
 
 .quality-list li {
