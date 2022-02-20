@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>@ViewData["Title"] - Bikcraft</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/libs/grid.css">
+    <link rel="stylesheet" href="~/css/libs/reset.css">
+    <link rel="stylesheet" href="~/css/libs/normalize.css">
+    <link rel="stylesheet" href="~/css/site.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="grid-4 active-menu">
+                <img src="~/assets/img/bikcraft.svg" alt="Logo Bikcraft">
+            </a>
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="About">Sobre</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="Products">Produtos</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="Portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="Contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-story grid-8">
+                    <h3>Nossa História</h3>
+                    <p>Iniciamos nossas atividades em um pequeno estabelecimento em São Paulo produzindo bicicletas
+                        personalizadas feitas a mão, hoje nós já possuimos inumeras lojas ao redor do Brasil.</p>
+                </div>
+
+                <div class="footer-contact grid-4">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>- (21) 9823-8721</li>
+                        <li>- contato@bikcraft.com</li>
+                        <li>- Lapa - São Paulo, SP</li>
+                    </ul>
+
+                </div>
+
+                <div class="footer-social grid-4">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="https://facebook.com/" target="_blank"><img
+                                    src="~/assets/img/social/facebook.svg"></a></li>
+                        <li><a href="https://instagram.com/" target="_blank"><img
+                                    src="~/assets/img/social/instagram.svg"></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><img
+                                    src="~/assets/img/social/twitter.svg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <p class="grid-16"><span alt="Simbolo de copyright">&#169;</span> 2021 Bikcraft. Todos os direitos
+                    reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
