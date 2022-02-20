@@ -14402,6 +14402,16 @@
   "RootNamespace": "Bikcraft",
   "Documents": [
     {
+      "FilePath": "/home/Projects/bikcraft/bikcraft/Views/Shared/_LayoutAbout.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutAbout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/Projects/bikcraft/bikcraft/Views/Shared/_LayoutPortfolio.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutPortfolio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/Projects/bikcraft/bikcraft/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -14414,6 +14424,11 @@
     {
       "FilePath": "/home/Projects/bikcraft/bikcraft/Views/Home/Contact.cshtml",
       "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/Projects/bikcraft/bikcraft/Views/Shared/_LayoutProducts.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutProducts.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14434,6 +14449,11 @@
     {
       "FilePath": "/home/Projects/bikcraft/bikcraft/Views/Home/About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/Projects/bikcraft/bikcraft/Views/Shared/_LayoutContact.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutContact.cshtml",
       "FileKind": "mvc"
     },
     {

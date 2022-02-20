@@ -221,6 +221,10 @@
 /home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/Home/Products.cshtml.g.cs
 /home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LayoutAbout.cshtml.g.cs
+/home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LayoutContact.cshtml.g.cs
+/home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LayoutPortfolio.cshtml.g.cs
+/home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LayoutProducts.cshtml.g.cs
 /home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
 /home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
 /home/Projects/bikcraft/bikcraft/obj/Debug/netcoreapp3.1/Bikcraft.RazorTargetAssemblyInfo.cache
