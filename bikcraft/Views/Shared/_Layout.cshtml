@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <header class="header">
         <div class="container">
             <a asp-area="" asp-controller="Home" asp-action="Index" class="grid-4 active-menu">
@@ -38,8 +37,9 @@
         </div>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
+    <!-- The Page Body Content will be load here -->
+    <div>
+        <main role="main">
             @RenderBody()
         </main>
     </div>
@@ -80,11 +80,9 @@
 
         <div class="copyright">
             <div class="container">
-                <p class="grid-16"><span alt="Simbolo de copyright">&#169;</span> 2021 Bikcraft. Todos os direitos
-                    reservados.</p>
+                <p class="grid-16"><span alt="Simbolo de copyright">&#169;</span> 2022 Bikcraft. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 </body>
-
 </html>
